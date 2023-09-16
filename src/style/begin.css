@@ -1,0 +1,21 @@
+.begin {
+  background: url("../img/titlebg.png") center/cover, no-repeat;
+}
+.begin__content {
+  padding-top: 404px;
+}
+.begin__content-line {
+  border-top: 2px solid white;
+  width: 40px;
+  margin-bottom: 24px;
+}
+.begin__content-title {
+  font-family: "Roboto", sans-serif;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 80px;
+  line-height: 80px;
+  letter-spacing: -1.5px;
+  color: #FFFFFF;
+  padding-bottom: 80px;
+}

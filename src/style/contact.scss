@@ -1,0 +1,146 @@
+.contact {
+  padding: 104px 0;
+
+  &__rowall {
+    display: flex;
+    column-gap: 198px;
+  }
+
+  &__row {
+    display: flex;
+    column-gap: 70px;
+    width: 60%;
+  }
+
+  &__left {
+
+    &-phone {
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      color: #9FADC2;
+      padding-top: 89px;
+    }
+
+    &-number {
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      color: #3E3E3E;
+      padding: 8px 0 24px;
+    }
+
+    &-email {
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      color: #9FADC2;
+      padding-bottom: 8px;
+    }
+
+    &-mail {
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      color: #3E3E3E;
+
+    }
+  }
+
+  &__right {
+    display: flex;
+    flex-direction: column;
+    padding-top: 72px;
+    width: 40%;
+
+  }
+
+  &__form {
+    display: flex;
+    flex-direction: column;
+    column-gap: 100px;
+  }
+
+  &__field {
+    padding: 14px 0 14px 17px;
+    width: 100%;
+    margin: 16px 0;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    color: #8F99A8;
+    background: #0075FF10;
+    border-radius: 8px;
+    border: none;
+
+    &:focus {
+      outline: 1px solid #0075FF;
+    }
+    &-message {
+      padding: 14px 0 14px 17px;
+      width: 100%;
+      margin: 16px 0;
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      color: #8F99A8;
+      background: #0075FF10;
+      border-radius: 8px;
+      border: none;
+
+      &:focus {
+        outline: 1px solid #0075FF;
+      }
+  }
+  }
+
+  &__button {
+    margin: 0 auto;
+    text-align: center;
+    width: 100%;
+    background: white;
+    border-radius: 8px;
+    padding: 21px 0 21px ;
+    border: 1px solid #0075FF;
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #0075FF;
+
+    &:hover {
+      background: #0075FF;
+      box-shadow: 0 13px 27px rgba(0, 83, 181, 0.46);
+      transition: 0.5s;
+      cursor: pointer;
+      color: #FFFFFF;
+    }
+  }
+
+}
+
+@media (max-width: 768px) {
+  .contact__rowall {
+    display: flex;
+    column-gap: 150px;
+  }
+}
+
+@media (max-width: 640px) {
+  .contact__rowall {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .contact__button {
+    text-align: center;
+  }
+}

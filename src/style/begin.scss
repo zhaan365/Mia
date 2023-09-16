@@ -1,0 +1,26 @@
+.begin {
+  background: url("../img/titlebg.png") center/cover, no-repeat;
+  padding: 459px 0 80px;
+  &__content {
+    &-line {
+      border-top: 2px solid white;
+      width: 40px;
+      margin-bottom: 24px;
+    }
+    &-title{
+      font-family: 'Roboto', sans-serif;
+      font-style: normal;
+      font-weight: 700;
+      font-size: 80px;
+      line-height: 80px;
+      letter-spacing: -1.5px;
+      color: #FFFFFF;
+    }
+  }
+}
+
+@media (max-width: 425px) {
+  .begin__content-title {
+    font-size: 50px;
+  }
+}

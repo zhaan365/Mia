@@ -1,0 +1,9 @@
+.footer {
+  background: url("../img/footer.png") center/cover no-repeat ;
+  padding: 40px 0;
+  &__img {
+    display: flex;
+   justify-content: center;
+    margin-top: 248px;
+  }
+}
